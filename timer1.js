@@ -1,5 +1,4 @@
 const agrv = process.argv.slice(2);
-
 for (let num of agrv) {
 if (num <= 0) {
   console.log("sorry no one can go back to the past");
